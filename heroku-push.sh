@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-HEROKU_APP_NAME='FILL_IN_THE_NAME_OF_YOUR_APP_ON_HEROKU'
+HEROKU_APP_NAME='calm-retreat-40480'
 
 echo '-------------------------------------'
 echo "heroku git:remote -a $HEROKU_APP_NAME"
