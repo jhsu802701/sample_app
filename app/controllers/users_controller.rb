@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   end
 
   def new
+    flash[:success] = "Welcome to the Sample App!"
     @user = User.new
   end
 
